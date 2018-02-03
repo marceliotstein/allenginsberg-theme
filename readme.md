@@ -18,7 +18,7 @@ require get_template_directory() . '/inc/custom-header.php';
 wp_enqueue_style( 'apostrophe-fonts', apostrophe_fonts_url(), array(), null );
 ````
 
-   This should be changed to:
+* This should be changed to:
 ````php
 wp_enqueue_style( 'apostrophe-fonts', apostrophe_child_fonts_url(), array(), null );
 ````

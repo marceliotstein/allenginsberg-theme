@@ -486,8 +486,17 @@ a {
 }
 
 .site-branding {
-	margin-bottom: 0;
-	height: 215px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+  height: 215px;
+}
+
+@media (max-width: 767px) {
+  .site-branding {
+    width: 100%;
+    height: 85px;
+  }
 }
 
 .archive article,
@@ -641,8 +650,4 @@ a {
 
 #footer li a {
   text-decoration: none;
-}
-
-body {
-  background-color: yellow;
 }

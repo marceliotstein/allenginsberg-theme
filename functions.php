@@ -29,3 +29,12 @@ function jetpackme_remove_rp() {
 }
 add_filter( 'wp', 'jetpackme_remove_rp', 20 );
 
+/* 
+ * Implement custom header for child theme 
+ *
+ * NOTE: this line must REPLACE the corresponding line in the base theme functions.php.
+ * If upgrading to a new base theme, edit functions.php to comment out the corresponding line.
+ * 
+ */
+require get_template_directory() . '-child/inc/custom-header.php';
+

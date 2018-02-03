@@ -17,10 +17,10 @@ require get_template_directory() . '/inc/custom-header.php';
 FROM:
 ````php
 wp_enqueue_style( 'apostrophe-fonts', apostrophe_fonts_url(), array(), null );
-````php
+````
 
 TO: 
 ````php
 wp_enqueue_style( 'apostrophe-fonts', apostrophe_child_fonts_url(), array(), null );
-````php
+````
 

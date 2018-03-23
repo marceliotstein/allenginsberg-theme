@@ -12,12 +12,55 @@
  Text Domain:  apostrophe-child
 */
 
+.who-was-dig-in-top {
+  font-size: 2em;
+  font-family: quattrocento;
+  padding-top: 8px;
+  padding-bottom: 2px;
+}
+
+.who-was-dig-in-bottom {
+  font-size: 1em;
+  font-family: quattrocento;
+  padding-top: 2px;
+  padding-bottom: 8px;
+}
+
+@media (min-width: 768px) {
+  .who-was-left {
+    width: 45%;
+    float: left;
+  }
+
+  .who-was-right {
+    width: 45%;
+    float: right;
+  }
+}
+
+.who-was-clear {
+  clear: both;
+}
+
+.who-was-header {
+  font-size: 1.8em;
+  font-family: "Josefin Sans";
+  font-weight: 700;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #aaaaaa;
+}
+
+.who-was-taglist {
+  font-family: "Josefin Sans";
+}
+
 .front-post-text {
   text-align: right;
 }
 
 table td {
-  border-bottom: 0px;
+  border-bottom-width: 0px;
 }
 
 .front-post-title {

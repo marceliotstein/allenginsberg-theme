@@ -48,7 +48,28 @@ get_header(); ?>
         ?>
         </table>
       </div>
-  yo yo yo yo
+      <div class="ag-front-featured-video">
+         <?php
+           //echo do_shortcode("[insert page='featured-video' display='content']");
+         ?>
+      </div>
+      <div class="ag-front-who-was">
+         <table class="who-was-table">
+           <tr>
+             <td>
+               <div class="who-was-dig-in-top">Who was Allen Ginsberg?</div>
+               <div class="who-was-dig-in-sub">(Dig in and find out.)</div>
+             </td>
+             <td>
+               <img src="wp-content/themes/apostrophe-child/images/who-was-ag.jpg" />
+             </td>
+           </tr>
+         </table>
+         <?php
+           echo do_shortcode("[insert page='who-was-allen-ginsberg' display='content']");
+         ?>
+      </div>
+      <div class="who-was-clear"></div>
     </main><!-- #main -->
   </section><!-- #primary -->
 

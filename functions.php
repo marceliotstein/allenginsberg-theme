@@ -90,6 +90,8 @@ function apostrophe_setup() {
   add_image_size( 'apostrophe-featured', 930, 450, true );
   add_image_size( 'apostrophe-mini', 60, 60, true );
   add_image_size( 'apostrophe-gallery', 550, 550, true );
+  // ag-hardcrop added for AllenGinsberg.org front page
+  add_image_size( 'ag-hardcrop', 250, 250, true );
 
   // This theme two different nav menus: one for site navigation, and one for social media links.
   register_nav_menus( array(

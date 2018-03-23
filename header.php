@@ -50,10 +50,10 @@
 					<a class="menu-toggle"><?php esc_html_e( '', 'apostrophe' ); ?></a>
 					<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'apostrophe' ); ?></a>
 
-					<?php wp_nav_menu( array(
-						'theme_location' => 'primary',
+  			                <?php wp_nav_menu( array(
+					 	'theme_location' => 'primary',
 						'menu_class'     => 'apostrophe-navigation',
-					) ); ?>
+				   	) ); ?>
 
 					<?php wp_nav_menu( array(
 						'theme_location' => 'social',

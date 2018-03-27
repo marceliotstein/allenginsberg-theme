@@ -26,6 +26,7 @@ get_header(); ?>
         ?>
       </div>
       <div class="ag-front-postlist">
+        <div class="ag-front-header">Recent Articles</div>
         <table class="front-post-table">
         <?php
           $recent_posts = wp_get_recent_posts($post_args);
@@ -49,18 +50,21 @@ get_header(); ?>
         </table>
       </div>
       <div class="ag-front-featured-video">
-         <?php
-           //echo do_shortcode("[insert page='featured-video' display='content']");
-         ?>
+        <div class="ag-front-header">Video of the Week</div>
+        <div class="ag-front-video-player">
+          <?php
+            echo do_shortcode("[insert page='video-of-the-week' display='content']");
+          ?>
+        </div>
       </div>
       <div class="ag-front-who-was">
          <table class="who-was-table">
            <tr>
-             <td>
+             <td class="who-was-td">
                <div class="who-was-dig-in-top">Who was Allen Ginsberg?</div>
                <div class="who-was-dig-in-sub">(Dig in and find out.)</div>
              </td>
-             <td>
+             <td class="who-was-td">
                <img src="wp-content/themes/apostrophe-child/images/who-was-ag.jpg" />
              </td>
            </tr>
@@ -70,6 +74,14 @@ get_header(); ?>
          ?>
       </div>
       <div class="who-was-clear"></div>
+      <div class="ag-front-insta">
+        <div class="ag-front-header">Follow us on Instagram</div>
+        <div class="ag-insta-feed">
+          <?php        
+            echo do_shortcode('[instagram-feed]');
+          ?>
+        </div>
+      </div>
     </main><!-- #main -->
   </section><!-- #primary -->
 

@@ -12,18 +12,62 @@
  Text Domain:  apostrophe-child
 */
 
-.who-was-dig-in-top {
-  font-size: 2em;
-  font-family: quattrocento;
-  padding-top: 8px;
-  padding-bottom: 2px;
+.ag-front-insta {
+  padding-top: 56px;
+  padding-bottom: 14px;
 }
 
-.who-was-dig-in-bottom {
-  font-size: 1em;
-  font-family: quattrocento;
+#sb_instagram {
+  font-family: "Josefin Sans", serif;
+}
+
+.ag-front-video-player {
+  text-align: center;
+}
+
+iframe {
+  margin-top: 6px;
+}
+
+.ag-front-header {
+  font-size: 1.8em;
+  font-family: "Zilla Slab", serif;
+  padding-top: 54px;
+  padding-bottom: 0px;
+  color: #a0a0a0;
+}
+
+.ag-front-who-was {
+  padding-top: 54px;
+}
+
+.who-was-table {
+  width: 880px;
+  margin-bottom: 0px;
+}
+
+.who-was-td {
+  width: 440px;
+}
+
+.who-was-dig-in-top {
+  font-size: 2.3em;
+  font-family: "Josefin Sans", serif;
+  padding-top: 8px;
+  padding-bottom: 2px;
+  float: right;
+}
+
+.who-was-dig-in-sub {
+  font-size: 1.7em;
+  font-family: "Josefin Sans", serif;
   padding-top: 2px;
   padding-bottom: 8px;
+  float: right;
+}
+
+.who-was-dig-in-sub a {
+  text-decoration: underline;
 }
 
 @media (min-width: 768px) {
@@ -44,15 +88,22 @@
 
 .who-was-header {
   font-size: 1.8em;
-  font-family: "Josefin Sans";
+  font-family: "Josefin Sans", serif;
   font-weight: 700;
-  padding-top: 8px;
+  color: #a0a0a0;
+  padding-top: 3px;
   padding-bottom: 8px;
-  color: #aaaaaa;
+  line-height: 1.1em;
 }
 
 .who-was-taglist {
-  font-family: "Josefin Sans";
+  font-family: "Ovo", serif;
+  line-height: 1.3em;
+}
+
+.who-was-taglist a {
+  text-decoration: underline;
+  color: #000000;
 }
 
 .front-post-text {
@@ -65,13 +116,13 @@ table td {
 
 .front-post-title {
   color: #000000;
-  font-family: quattrocento;
+  font-family: "Ovo", serif;
   font-size: 2.7rem;
 }
 
 .front-post-summary {
   color: #000000;
-  font-family: quattrocento;
+  font-family: "Ovo", serif;
   font-size: 1.7rem;
 }
 
@@ -106,7 +157,7 @@ article div {
 
 div.ag-caption {
   text-align: left;
-  font-family: quattrocento;
+  font-family: "Ovo", serif;
   font-size: .82em;
   line-height: 1.2em;
   color: #4f4f4f;
@@ -120,7 +171,7 @@ div.ag-caption {
   background: #ffffff;
   color: #666666;
   display: inline-block;
-  font-family: "Karma", serif;
+  font-family: "Zilla Slab", serif;
   font-size: 1.8rem;
   font-weight: 600;
   letter-spacing: 1px;
@@ -172,7 +223,7 @@ div.ag-caption {
 }
 
 .ag-front-excerpt {
-	font-family: Quattrocento;
+	font-family: "Ovo", serif;
 	font-size: 16px;
 	font-size: 1.7rem;
 	font-weight: 300;
@@ -215,7 +266,7 @@ h4 {
   color: #666666;
   padding-top: 0px;
   margin-top: 0px;
-  font-family: "Quattrocento", serif;
+  font-family: "Ovo", serif;
 }
 
 h1 {
@@ -244,7 +295,7 @@ input,
 select,
 textarea {
 	color: #000000;
-	font-family: "Quattrocento", serif;
+	font-family: "Ovo", serif;
 	font-size: 19px;
 	font-size: 1.9rem;
 	line-height: 1.75;
@@ -262,7 +313,7 @@ input[type="submit"],
 	color: #5a5a5a;
 	cursor: pointer;
 	display: inline-block;
-	font-family: "Quattrocento", serif;
+	font-family: "Ovo", serif;
 	font-size: 18px;
 	font-size: 1.8rem;
 	font-weight: 300;
@@ -283,7 +334,7 @@ input[type="submit"]:hover {
 
 label {
 	color: silver;
-	font-family: "Quattrocento", serif;
+	font-family: "Ovo", serif;
 	font-size: 14px;
 	font-size: 1.4rem;
 	font-weight: 600;
@@ -307,6 +358,8 @@ a {
   text-decoration: none;
 }
 
+.who-was-header a,
+.who-was-taglist a,
 .ag-front-excerpt a,
 .entry-content a {
   box-shadow: 0 0 0 0 currentColor;
@@ -318,7 +371,7 @@ a {
 .main-navigation {
 	clear: both;
 	display: block;
-	font-family: "Karma", Arial, sans-serif;
+	font-family: "Zilla Slab", serif;
 	font-size: 1.0em;
 	font-weight: 300;
 	width: 100%;
@@ -351,7 +404,7 @@ a {
 .nav-next .meta-nav {
 	color: silver;
 	display: block;
-	font-family: "Quattrocento", serif;
+	font-family: "Ovo", serif;
 	font-size: 18px;
 	font-weight: 100;
 	overflow: hidden;
@@ -376,10 +429,10 @@ a {
 .page-title {
 	margin-top: 0;
 	position: relative;
-	font-family: "Josefin Sans";
+	font-family: "Josefin Sans", serif;
         font-size: 2.8em;
         font-weight: 700;
-        color: #aaaaaa;
+        color: #a0a0a0;
         text-align: right;
         text-transform: lowercase;
         padding-right: 10px;
@@ -388,7 +441,7 @@ a {
 .entry-title {
 	margin-top: 0;
 	position: relative;
-	font-family: Quattrocento;
+	font-family: "Ovo", serif;
         text-align: right;
 }
 
@@ -401,7 +454,7 @@ a {
 
 .page-links {
 	clear: both;
-	font-family: "Quattrocento", serif;
+	font-family: "Ovo", serif;
 	font-size: 14px;
 	font-size: 1.4rem;
 	font-weight: 600;
@@ -412,7 +465,7 @@ a {
 .entry-footer .post-tags {
   float: left;
   font-size: 1.5rem;
-  font-family: Josefin Sans;
+  font-family: "Josefin Sans", serif;
   list-style: none;
   margin: 0.2rem 0 0;
   padding: 10px 0px 10px 0px;
@@ -476,7 +529,7 @@ a {
 
 .widget-area .sidebar-primary aside .widget-title {
 	color: #000;
-	font-family: josefin sans;
+	font-family: "Josefin Sans", serif;
 }
 
 .widget-area .sidebar-primary aside a,
@@ -486,19 +539,11 @@ a {
 }
 
 .comment-meta {
-	font-family: "Quattrocento", serif;
-	/*padding: 0.25em;*/
+	font-family: "Ovo", serif;
 }
 
 .comment-meta .comment-author .avatar {
         display: none;
-        /*
-	border-radius: 50%;
-	float: left;
-	height: 100px;
-	margin: 0 0.5em 0 0;
-	width: 100px;
-        */
 }
 
 .main-navigation {

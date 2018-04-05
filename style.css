@@ -42,12 +42,7 @@ iframe {
 }
 
 .who-was-table {
-  width: 880px;
   margin-bottom: 0px;
-}
-
-.who-was-td {
-  width: 440px;
 }
 
 .who-was-dig-in-top {
@@ -68,22 +63,6 @@ iframe {
 
 .who-was-dig-in-sub a {
   text-decoration: underline;
-}
-
-@media (min-width: 768px) {
-  .who-was-left {
-    width: 45%;
-    float: left;
-  }
-
-  .who-was-right {
-    width: 45%;
-    float: right;
-  }
-}
-
-.who-was-clear {
-  clear: both;
 }
 
 .who-was-header {

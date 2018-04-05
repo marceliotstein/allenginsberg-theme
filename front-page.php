@@ -65,7 +65,7 @@ get_header(); ?>
                <div class="who-was-dig-in-sub">(Dig in and find out.)</div>
              </td>
              <td class="who-was-td">
-               <img src="wp-content/themes/apostrophe-child/images/who-was-ag.jpg" />
+               <img class="who-was-img" src="wp-content/themes/apostrophe-child/images/who-was-ag.jpg" />
              </td>
            </tr>
          </table>
@@ -73,7 +73,6 @@ get_header(); ?>
            echo do_shortcode("[insert page='who-was-allen-ginsberg' display='content']");
          ?>
       </div>
-      <div class="who-was-clear"></div>
       <div class="ag-front-insta">
         <div class="ag-front-header">Follow us on Instagram</div>
         <div class="ag-insta-feed">

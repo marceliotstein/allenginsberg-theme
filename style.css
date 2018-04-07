@@ -93,6 +93,10 @@ table td {
   border-bottom-width: 0px;
 }
 
+td.front-post-image {
+  min-width: 266px;
+}
+
 .front-post-title {
   color: #000000;
   font-family: "Ovo", serif;

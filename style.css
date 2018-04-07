@@ -12,6 +12,10 @@
  Text Domain:  apostrophe-child
 */
 
+.ag-clear {
+  clear: both;
+}
+
 .ag-front-insta {
   padding-top: 56px;
   padding-bottom: 14px;
@@ -41,24 +45,29 @@ iframe {
   padding-top: 54px;
 }
 
+td.who-was-img-td {
+  width: 266px;
+}
+
 .who-was-table {
   margin-bottom: 0px;
 }
 
-.who-was-dig-in-top {
-  font-size: 2.3em;
+.who-was-dig-in-text {
   font-family: "Josefin Sans", serif;
-  padding-top: 8px;
-  padding-bottom: 2px;
   float: right;
 }
 
+.who-was-dig-in-top {
+  font-size: 2.2em;
+  padding-top: 8px;
+  padding-bottom: 2px;
+}
+
 .who-was-dig-in-sub {
-  font-size: 1.7em;
-  font-family: "Josefin Sans", serif;
+  font-size: 1.6em;
   padding-top: 2px;
   padding-bottom: 8px;
-  float: right;
 }
 
 .who-was-dig-in-sub a {
@@ -95,6 +104,35 @@ table td {
 
 td.front-post-image {
   min-width: 266px;
+}
+
+.who-was-answer {
+  padding-bottom: 24px;
+}
+
+.who-was-left,
+.who-was-right {
+  padding-bottom: 12px;
+}
+
+@media (min-width: 768px) {
+  .who-was-left {
+     float: left;
+     width: 46%;
+  }
+  .who-was-right {
+     float: right;
+     width: 46%;
+  }
+}
+
+@media (max-width: 768px) {
+  td.who-was-img-td {
+    width: 166px;
+  }
+  td.front-post-image {
+    min-width: 166px;
+  }
 }
 
 .front-post-title {

@@ -60,19 +60,24 @@ get_header(); ?>
       <div class="ag-front-who-was">
          <table class="who-was-table">
            <tr>
-             <td class="who-was-td">
-               <div class="who-was-dig-in-top">Who was Allen Ginsberg?</div>
-               <div class="who-was-dig-in-sub">(Dig in and find out.)</div>
+             <td class="who-was-dig-in-td">
+               <div class="who-was-dig-in-text">
+                 <div class="who-was-dig-in-top">Who was Allen Ginsberg?</div>
+                 <div class="who-was-dig-in-sub">(Dig in and find out.)</div>
+               </div>
              </td>
-             <td class="who-was-td">
+             <td class="who-was-img-td">
                <img class="who-was-img" src="wp-content/themes/apostrophe-child/images/who-was-ag.jpg" />
              </td>
            </tr>
          </table>
-         <?php
-           echo do_shortcode("[insert page='who-was-allen-ginsberg' display='content']");
-         ?>
+         <div class="who-was-answer">
+           <?php
+             echo do_shortcode("[insert page='who-was-allen-ginsberg' display='content']");
+           ?>
+         </div>
       </div>
+      <div class="ag-clear"></div>
       <div class="ag-front-insta">
         <div class="ag-front-header">Follow us on Instagram</div>
         <div class="ag-insta-feed">

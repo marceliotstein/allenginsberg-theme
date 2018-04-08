@@ -89,6 +89,16 @@ td.who-was-img-td {
   line-height: 1.3em;
 }
 
+@media (max-width: 768px) {
+ .who-was-header {
+   font-size: 1.3em;
+  }
+  .who-was-taglist {
+    font-family: "Ovo", serif;
+    font-size: .85em;
+  }
+}
+
 .who-was-taglist a {
   text-decoration: underline;
   color: #000000;
@@ -145,6 +155,15 @@ td.front-post-image {
   color: #000000;
   font-family: "Ovo", serif;
   font-size: 1.7rem;
+}
+
+@media (max-width: 768px) {
+  .front-post-title {
+    font-size: 2.3rem;
+  }
+  .front-post-summary {
+    font-size: 1.3rem;
+  }
 }
 
 div.eds-animate {

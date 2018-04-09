@@ -184,7 +184,8 @@ article.comment-body div.reply {
 }
 
 /* only show tags in post, not excerpt */
-div.entry-footer div.apostrophe-tags {
+.archive .post-categories, 
+.archive .post-tags {
   display: none;
 }
 

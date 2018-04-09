@@ -26,7 +26,7 @@ get_header(); ?>
         ?>
       </div>
       <div class="ag-front-postlist">
-        <div class="ag-front-header">Recent Articles</div>
+        <div class="ag-front-header"><a href="/articles">Recent Articles</a></div>
         <table class="front-post-table">
         <?php
           $recent_posts = wp_get_recent_posts($post_args);
@@ -48,6 +48,9 @@ get_header(); ?>
   	  wp_reset_query();
         ?>
         </table>
+        <center>
+          <a href="/articles">More Recent Articles ...</a>
+        </center>
       </div>
       <div class="ag-front-featured-video">
         <div class="ag-front-header">Video of the Week</div>

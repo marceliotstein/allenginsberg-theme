@@ -104,10 +104,6 @@ td.who-was-img-td {
   color: #000000;
 }
 
-.front-post-text {
-  text-align: right;
-}
-
 table td {
   border-bottom-width: 0px;
 }
@@ -160,9 +156,11 @@ td.front-post-image {
 @media (max-width: 768px) {
   .front-post-title {
     font-size: 2.3rem;
+    line-height: 1em;
   }
   .front-post-summary {
     font-size: 1.3rem;
+    line-height: 1em;
   }
 }
 

@@ -170,6 +170,7 @@ td.front-post-image {
   font-size: 1.7rem;
 }
 
+.archive-post-date,
 .archive-post-summary {
   color: #000000;
   font-family: "Ovo", serif;
@@ -204,6 +205,7 @@ td.front-post-image {
     font-size: 1.3rem;
     line-height: 1em;
   }
+  .archive-post-date,
   .archive-post-summary {
     font-size: 1.2rem;
     line-height: 1em;

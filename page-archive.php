@@ -42,6 +42,7 @@
               ?>
               <div class="archive-post">
                 <div class="archive-post-title"><a href="<?php print $link ?>"><?php print $title ?></a></div>
+                <div class="archive-post-date"><?php the_date(); ?></div>
                 <div class="archive-post-summary"><?php the_advanced_excerpt(); ?></a></div>
               </div>
               <?php

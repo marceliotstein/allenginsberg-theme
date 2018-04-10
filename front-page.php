@@ -14,7 +14,7 @@ get_header(); ?>
 
 <?php // prepare post list
   $post_args = array(
-            'numberposts' => '3',
+            'numberposts' => '5',
             'post_status' =>'publish',
  );
 ?>

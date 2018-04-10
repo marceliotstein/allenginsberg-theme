@@ -159,6 +159,9 @@ td.front-post-image {
   color: #000000;
   font-family: "Ovo", serif;
   font-size: 2.7rem;
+  line-height: 1.0em;
+  padding-top: 10px;
+  padding-bottom: 7px;
 }
 
 .front-post-summary {
@@ -559,7 +562,10 @@ a {
 	margin: 0 0 1.5em;
 }
 
-.entry-footer .post-categories,
+.entry-footer .post-categories {
+  display: none;
+}
+
 .entry-footer .post-tags {
   float: left;
   font-size: 1.5rem;
@@ -570,7 +576,6 @@ a {
   text-align: right;
 }
 
-.entry-footer .post-categories li,
 .entry-footer .post-tags li {
 	display: inline-block;
 	margin: 0px 0px 0px 0px;

@@ -181,7 +181,7 @@ td.front-post-image {
 
 .archive-post-summary p {
   margin: .7em;
-  line-height: .7em;
+  line-height: .9em;
 }
 
 .archive-post-summary .ag-caption {
@@ -202,7 +202,7 @@ td.front-post-image {
     line-height: 1em;
   }
   .archive-post-summary {
-    font-size: 1.0rem;
+    font-size: 1.2rem;
     line-height: 1em;
     margin-left: 0px;
   }
@@ -212,6 +212,18 @@ td.front-post-image {
   }
 }
 
+.archive-link a {
+  color: #000000;
+}
+
+.archive-link-next {
+  text-align: right;
+}
+
+.archive-monthly-link {
+  text-align: center;
+}
+  
 div.eds-animate {
   display: inline;
 }

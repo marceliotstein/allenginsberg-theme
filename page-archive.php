@@ -27,7 +27,13 @@
 
           if ($query->have_posts()) {
 
-            previous_posts_link( '« Previous Page' );
+            ?>
+            <div class="archive-link archive-link-prev">
+            <?php
+              previous_posts_link( '« Previous Page' );
+            ?>
+            </div>
+            <?php
 
             while ($query->have_posts()) {
               $query->the_post();
@@ -41,7 +47,19 @@
               <?php
             }
 
-            next_posts_link( 'Next Page »', $query->max_num_pages );
+            ?>
+            <div class="archive-link archive-link-next">
+            <?php
+              next_posts_link( 'Next Page »', $query->max_num_pages );
+            ?>
+            </div>
+            <div class="archive-monthly-link">
+              <div>Select from Monthly Archive</div>
+              <?php
+              echo do_shortcode('[archives type="monthly" format="option" select_text="Select Month"]');
+              ?>
+            </div>
+            <?php
         }
 
         // Restore original Post Data

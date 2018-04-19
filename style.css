@@ -121,16 +121,18 @@ td.front-post-image {
   padding-bottom: 12px;
 }
 
+/*
 @media (min-width: 768px) {
   .who-was-left {
      float: left;
-     width: 46%;
+     width: 50%;
   }
   .who-was-right {
      float: right;
-     width: 46%;
+     width: 50%;
   }
 }
+*/
 
 @media (max-width: 768px) {
   td.who-was-img-td {

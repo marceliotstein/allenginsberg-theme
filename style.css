@@ -84,8 +84,18 @@ td.who-was-img-td {
   line-height: 1.1em;
 }
 
-.who-was-taglist {
+.who-was-summary {
   font-family: "Ovo", serif;
+  font-size: 19px;
+  line-height: 1.3em;
+  padding-bottom: 5px;
+}
+
+.who-was-taglist,
+.who-was-taglist a {
+  font-size: 14px;
+  font-family: "Ovo", serif;
+  font-style: italic;
   line-height: 1.3em;
 }
 
@@ -93,15 +103,24 @@ td.who-was-img-td {
  .who-was-header {
    font-size: 1.3em;
   }
-  .who-was-taglist {
+  .who-was-summary {
     font-family: "Ovo", serif;
-    font-size: .85em;
+    font-size: 15px;
+  }
+  .who-was-taglist,
+  .who-was-taglist a {
+    font-family: "Ovo", serif;
+    font-size: 11px;
   }
 }
 
+.who-was-summary a {
+  color: #000000;
+}
+
+.who-was-summary a, 
 .who-was-taglist a {
   text-decoration: underline;
-  color: #000000;
 }
 
 table td {
@@ -121,18 +140,18 @@ td.front-post-image {
   padding-bottom: 12px;
 }
 
-/*
 @media (min-width: 768px) {
   .who-was-left {
      float: left;
-     width: 50%;
+     width: 46%;
+     clear: left;
   }
   .who-was-right {
      float: right;
-     width: 50%;
+     width: 46%;
+     clear: right;
   }
 }
-*/
 
 @media (max-width: 768px) {
   td.who-was-img-td {
@@ -176,7 +195,7 @@ td.front-post-image {
 .archive-post-summary {
   color: #000000;
   font-family: "Ovo", serif;
-  font-size: 1.3rem;
+  font-size: 17px;
   margin-left: 40px;
 }
 
@@ -465,6 +484,7 @@ a {
 }
 
 .who-was-header a,
+.who-was-summary a,
 .who-was-taglist a,
 .ag-front-excerpt a,
 .entry-content a {

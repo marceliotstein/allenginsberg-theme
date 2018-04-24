@@ -211,7 +211,7 @@ td.front-post-image {
 
 .archive-post-summary img,
 .archive-post-summary iframe {
-  max-width: 250px;
+  /*max-width: 250px;*/
 }
 
 .archive-post-summary .ag-caption {
@@ -233,7 +233,7 @@ td.front-post-image {
   }
   .archive-post-summary img,
   .archive-post-summary iframe {
-    max-width: 200px;
+    /*max-width: 200px;*/
   }
 }
 
@@ -728,7 +728,6 @@ a {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	padding-left: 4%;
-	padding-right: 4%;
 }
 
 .site-branding {
@@ -756,7 +755,7 @@ a {
 	box-sizing: border-box;
 	margin-bottom: 54px;    
 	padding-left: 1.11111%;
-	padding-right: 9.0%;
+	/*padding-right: 9.0%;*/
 	width: 100%;
 }
 
@@ -768,7 +767,7 @@ a {
 	box-sizing: border-box;
 	float: left;
 	padding-left: 1.11111%;
-	padding-right: 9.0%;
+	/*padding-right: 9.0%;*/
 	width: 66.66667%;
 }
 

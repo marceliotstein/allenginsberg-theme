@@ -49,7 +49,7 @@ get_header(); ?>
         ?>
         </table>
         <center>
-          <a href="/articles">More Recent Articles ...</a>
+          <a href="/more-recent-articles">More Recent Articles ...</a>
         </center>
       </div>
       <div class="ag-front-featured-video">

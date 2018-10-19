@@ -40,7 +40,7 @@ get_header(); ?>
               <td class="front-post-image"><?php print_r($thumb); ?></td>
               <td class="front-post-text">
                 <div class="front-post-title"><a href="<?php print $link ?>"><?php print $title ?></a></div>
-                <div class="front-post-summary"><?php print_r($meta_descrip); ?></a>
+                <div class="front-post-summary"><?php print_r($meta_descrip); ?></div>
               </td>
             </tr>
             <?php

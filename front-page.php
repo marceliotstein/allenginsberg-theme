@@ -43,7 +43,7 @@ get_header(); ?>
                 <div class="front-post-summary"><?php print_r($meta_descrip); ?></a>
               </td>
             </tr>
-            <?
+            <?php
 	  }
   	  wp_reset_query();
         ?>

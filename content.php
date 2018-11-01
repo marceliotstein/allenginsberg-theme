@@ -28,7 +28,8 @@
         $img = get_the_post_thumbnail();
         $date = get_the_date();
         $excerpt = get_the_excerpt();
-        $text_excerpt = preg_replace("/<img[^>]+\>/i", "", $excerpt); 
+        $text_excerpt = preg_replace("/\[.*?\]/", "", $excerpt); 
+        $text_excerpt = preg_replace("/<img[^>]+\>/i", "", $text_excerpt); 
 	?>
 
         <div class="front-archive-post">

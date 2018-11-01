@@ -129,6 +129,7 @@ table td {
 
 td.front-post-image {
   min-width: 266px;
+  vertical-align: top;
 }
 
 .who-was-answer {

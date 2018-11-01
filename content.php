@@ -2,6 +2,7 @@
 /**
  * @package Apostrophe
  *
+ * content.php for Allen Ginsberg - used for archive pages, called by archive.php
  */
 ?>
 
@@ -11,51 +12,42 @@
 	* If our posts have featured images, we'll show them in the grid.
 	* Otherwise, we'll fall back to a grey box with an icon representing the post format.
 	*/
-	///if ( get_the_post_thumbnail() ) :
-		// Use a larger image if the post is featured.
-		///if ( true === apostrophe_is_featured() ) {
-	        ///		$apostrophe_post_thumbnail = get_the_post_thumbnail( $post->ID, 'apostrophe-featured' );
-		///} else {
-		///	$apostrophe_post_thumbnail = get_the_post_thumbnail();
-		///}
-		///$apostrophe_has_thumbnail = 'apostrophe-thumb';
-	///else :
-		$apostrophe_post_thumbnail = '<span></span>';
-		$apostrophe_has_thumbnail = 'apostrophe-nothumb';
-	///endif; // check for post thumbnail
+	$apostrophe_post_thumbnail = '<span></span>';
+	$apostrophe_has_thumbnail = 'apostrophe-nothumb';
 
-		/*
-		* If the post format is a link, we want to link directly to that link, rather than to the post itself
-		*/
+	/*
+	* If the post format is a link, we want to link directly to that link, rather than to the post itself
+	*/
 	if ( 'link' === get_post_format() ) :
-		$apostrophe_permalink = apostrophe_get_url();
+		$link = apostrophe_get_url();
 	else :
-		$apostrophe_permalink = get_permalink();
+		$link = get_permalink();
 	endif;
 
+        $title = get_the_title();
+        $img = get_the_post_thumbnail();
+        $date = get_the_date();
         $excerpt = get_the_excerpt();
-        $excerpt = ltrim($excerpt,'[');
-
+        $text_excerpt = preg_replace("/<img[^>]+\>/i", "", $excerpt); 
 	?>
 
-	<h1 class="entry-title">
-	  <a href="<?php echo esc_url( $apostrophe_permalink ); ?>" rel="bookmark"><?php the_title(); ?></a>
-	</h1>
-        <div class="entry-footer"><?php apostrophe_entry_footer(); ?></div>
-	<div class="entry-meta"><?php apostrophe_posted_on(); ?></div>
-        <?php //if (!empty($apostrophe_post_thumbnail)): ?>
-        <?php if (!empty(strip_tags($apostrophe_post_thumbnail))): ?>
-          <div style="border: 1px">
-          </div>
-        <?php else: ?>
-          <div style="border: 1px">
-            <?php //print $excerpt; ?>
-          </div>
-        <?php endif; ?>
-  <header class="entry-header">
-		<?php apostrophe_inline_controls(); ?>
-		<!--<h2 class="entry-title"><a href="<?php //echo esc_url( $apostrophe_permalink ); ?>" rel="bookmark"><?php //the_title(); ?></a></h2>-->
-		<div class="ag-front-excerpt"><?php echo $excerpt; ?></div>
-	</header><!-- .entry-header -->
+        <div class="front-archive-post">
+          <table class="front-post-table">
+            <tr>
+              <td class="front-post-image">
+                <a href="<?php echo esc_url($link) ?>"><?php print $img ?></a>
+              </td>
+              <td class="front-post-text">
+                <div class="front-post-title">
+                  <a href="<?php echo esc_url($link) ?>"><?php print $title ?></a>
+                </div>
+                <div class="front-post-summary">
+                  <div class="front-post-summary-date"><?php print $date ?></div>
+                  <div class="front-post-summary-excerpt"><?php print $text_excerpt ?></div>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
 
 </article><!-- #post-## -->

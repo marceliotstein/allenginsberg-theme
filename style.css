@@ -127,10 +127,20 @@ table td {
   border-bottom-width: 0px;
 }
 
+td.front-post-text {
+  padding-top: 0px;
+  vertical-align: top;
+}
+
 td.front-post-image {
   min-width: 266px;
   vertical-align: top;
 }
+
+td.front-post-image img {
+  margin-top: 0px;
+}
+
 
 .who-was-answer {
   padding-bottom: 24px;
@@ -175,6 +185,8 @@ td.front-post-image {
   color: #000000;
   font-family: "Ovo", serif;
   font-size: 2.7rem;
+  padding-top: 4px;
+  line-height: 28px;
 }
 
 .archive-post-title {

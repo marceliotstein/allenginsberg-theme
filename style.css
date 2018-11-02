@@ -127,6 +127,19 @@ table td {
   border-bottom-width: 0px;
 }
 
+.front-post-summary-date {
+  margin-bottom: 0px;
+}
+
+td.front-post-text p,
+td.front-post-text div  {
+  margin-bottom: 0px;
+}
+
+td.front-post-text div.ag-caption-new {
+  margin-top: 0px;
+}
+
 td.front-post-text {
   padding-top: 0px;
   vertical-align: top;

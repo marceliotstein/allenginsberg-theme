@@ -43,17 +43,13 @@
 
 	<body <?php body_class(); ?>>
 		<div id="page" class="hfeed site">
-
 			<header id="masthead" class="site-header" role="banner">
-				<a href="/"><div class="site-branding">
-					<?php
-					if ( function_exists( 'jetpack_the_site_logo' ) ) :
-					 	jetpack_the_site_logo();
-					endif;
-					?>
-					<!--<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php //bloginfo( 'name' ); ?></a></h1>-->
-					<!--<h2 class="site-description"><?php //bloginfo( 'description' ); ?></h2>-->
-				</div></a>
+                                <a href="/"><div class="wide-logo">
+                                  <img src="/wp-content/themes/apostrophe-child/images/ag-pinetrees-wide-2019.png" />
+                                </div></a>
+                                <a href="/"><div class="narrow-logo">
+                                  <img src="/wp-content/themes/apostrophe-child/images/ag-pinetrees-narrow-2019.png" />
+                                </div></a>
 				<nav id="site-navigation" class="main-navigation" role="navigation">
 					<a class="menu-toggle"><?php esc_html_e( '', 'apostrophe' ); ?></a>
 					<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'apostrophe' ); ?></a>

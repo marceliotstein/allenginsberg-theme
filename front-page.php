@@ -53,7 +53,7 @@ get_header(); ?>
         </center>
       </div>
       <div class="ag-front-featured-video">
-        <div class="ag-front-header">Video of the Week</div>
+        <div class="ag-front-header">Featured Videos</div>
         <div class="ag-front-video-player">
           <?php
             echo do_shortcode("[insert page='video-of-the-week' display='content']");
@@ -63,14 +63,14 @@ get_header(); ?>
       <div class="ag-front-who-was">
          <table class="who-was-table">
            <tr>
+             <td class="who-was-img-td">
+               <img class="who-was-img" src="wp-content/themes/apostrophe-child/images/who-was-ag.jpg" />
+             </td>
              <td class="who-was-dig-in-td">
                <div class="who-was-dig-in-text">
                  <div class="who-was-dig-in-top">Who was Allen Ginsberg?</div>
                  <div class="who-was-dig-in-sub">(Dig in and find out.)</div>
                </div>
-             </td>
-             <td class="who-was-img-td">
-               <img class="who-was-img" src="wp-content/themes/apostrophe-child/images/who-was-ag.jpg" />
              </td>
            </tr>
          </table>

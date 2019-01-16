@@ -32,6 +32,9 @@ function apostrophe_child_fonts_url() {
           }
 
           // fonts for allenginsberg.org
+          $font_families[] = 'Playfair Display:300,400';
+          $font_families[] = 'Gentium Basic:400';
+          $font_families[] = 'Slabo 27px:400';
           $font_families[] = 'Ovo:100,300,400,400italic,600,700';
           $font_families[] = 'Zilla Slab:300,400,600';
           $font_families[] = 'Josefin Sans:400,600,700';

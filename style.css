@@ -16,6 +16,10 @@
   clear: both;
 }
 
+.page-header {
+  margin: 27px 0px 10px 0px;
+}
+
 .ag-front-insta {
   padding-top: 24px;
   padding-bottom: 14px;
@@ -46,7 +50,7 @@ iframe {
 }
 
 td.who-was-img-td {
-  width: 266px;
+  width: 250px;
 }
 
 .who-was-table {
@@ -200,6 +204,17 @@ td.front-post-image img {
   line-height: 28px;
 }
 
+.front-post-table {
+  margin-bottom: 4px;
+}
+
+.front-postlist-more {
+  font-family: "Ovo", serif;
+  font-size: 2.7rem;
+  padding-left: 40px;
+  margin-bottom: 8px;
+}
+
 .archive-post-title {
   color: #000000;
   font-family: "Ovo", serif;
@@ -207,7 +222,7 @@ td.front-post-image img {
   line-height: 1.0em;
   padding-top: 10px;
   padding-bottom: 7px;
-  text-align: right;
+  text-align: left;
 }
 
 .archive-post-title a {
@@ -224,18 +239,13 @@ td.front-post-image img {
   color: #000000;
   font-family: "Ovo", serif;
   font-size: 17px;
-  text-align: right;
+  text-align: left;
 }
 
 .archive-post-summary {
   color: #000000;
   font-family: "Ovo", serif;
   font-size: 17px;
-}
-
-.archive-post-summary img,
-.archive-post-summary iframe {
-  /*max-width: 250px;*/
 }
 
 .archive-post-summary .ag-caption, 
@@ -255,10 +265,6 @@ td.front-post-image img {
   .front-post-summary {
     font-size: 1.3rem;
     line-height: 1em;
-  }
-  .archive-post-summary img,
-  .archive-post-summary iframe {
-    /*max-width: 200px;*/
   }
 }
 
@@ -325,7 +331,7 @@ div.ag-caption-new {
   background: #ffffff;
   color: #666666;
   display: inline-block;
-  font-family: "Zilla Slab", serif;
+  font-family: "Gentium Basic", serif;
   font-size: 1.8rem;
   font-weight: 600;
   letter-spacing: 1px;
@@ -334,7 +340,7 @@ div.ag-caption-new {
   padding: 0.5rem 0rem;
   text-decoration: none;
   width: 100%;
-  text-align: right;
+  text-align: left;
 }
 
 .entry-footer a[rel="tag"],
@@ -377,7 +383,7 @@ div.ag-caption-new {
 }
 
 .entry-meta {
-  text-align: right;
+  text-align: left;
 }
 
 .ag-front-excerpt {
@@ -640,7 +646,7 @@ a {
         font-size: 2.8em;
         font-weight: 700;
         color: #a0a0a0;
-        text-align: right;
+        text-align: left;
         text-transform: lowercase;
         padding-right: 10px;
 }
@@ -649,7 +655,7 @@ a {
 	margin-top: 0;
 	position: relative;
 	font-family: "Ovo", serif;
-        text-align: right;
+        text-align: left;
 }
 
 .page-content,
@@ -768,7 +774,7 @@ a {
 	height: 30px;
 	line-height: 30px;
 	margin: 0;
-	padding: 0;
+	padding: -4px 0px 4px 0px;
   }
   .main-navigation .menu-toggle:before {
     font-size: 24px;
@@ -802,7 +808,6 @@ a {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-	padding-left: 4%;
 }
 
 .site-branding {
@@ -834,7 +839,6 @@ a {
     display: none;
   }
 }
-
 
 .archive article {
 }
@@ -898,7 +902,7 @@ a {
 	   float: left;
 	   padding-left: 0px;
 	   padding-right: 0px;
-	   width: 222px;
+	   width: 212px;
 	}
 }
 

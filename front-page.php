@@ -48,9 +48,9 @@ get_header(); ?>
   	  wp_reset_query();
         ?>
         </table>
-        <center>
+        <div class="front-postlist-more">
           <a href="/more-recent-articles">More Recent Articles ...</a>
-        </center>
+        </div>
       </div>
       <div class="ag-front-featured-video">
         <div class="ag-front-header">Featured Videos</div>

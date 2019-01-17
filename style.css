@@ -17,7 +17,7 @@
 }
 
 .ag-front-insta {
-  padding-top: 56px;
+  padding-top: 24px;
   padding-bottom: 14px;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .ag-front-video-player {
-  text-align: center;
+  text-align: left;
 }
 
 iframe {
@@ -35,14 +35,14 @@ iframe {
 
 .ag-front-header {
   font-size: 1.8em;
-  font-family: "Zilla Slab", serif;
-  padding-top: 54px;
+  font-family: "Gentium Basic", serif;
+  padding-top: 24px;
   padding-bottom: 0px;
-  color: #a0a0a0;
+  color: #000000;
 }
 
 .ag-front-who-was {
-  padding-top: 54px;
+  padding-top: 24px;
 }
 
 td.who-was-img-td {
@@ -54,8 +54,8 @@ td.who-was-img-td {
 }
 
 .who-was-dig-in-text {
-  font-family: "Josefin Sans", serif;
-  float: right;
+  font-family: "Gentium Basic", serif;
+  float: left;
 }
 
 .who-was-dig-in-top {
@@ -75,28 +75,25 @@ td.who-was-img-td {
 }
 
 .who-was-header {
-  font-size: 1.8em;
+  font-size: 1.7em;
   font-family: "Josefin Sans", serif;
   font-weight: 700;
-  color: #a0a0a0;
-  padding-top: 3px;
-  padding-bottom: 8px;
+  color: #000000;
+  padding-top: 12px;
+  padding-bottom: 12px;
   line-height: 1.1em;
 }
 
-.who-was-summary {
+.who-was-summary,
+.who-was-taglist {
   font-family: "Ovo", serif;
   font-size: 18px;
-  line-height: 1.3em;
+  line-height: 1.5em;
   padding-bottom: 5px;
 }
 
 .who-was-taglist,
-.who-was-taglist a {
-  font-size: 14px;
-  font-family: "Ovo", serif;
-  font-style: italic;
-  line-height: 1.3em;
+  padding-top: 12px;
 }
 
 @media (max-width: 768px) {
@@ -141,16 +138,17 @@ td.front-post-text div.ag-caption-new {
 }
 
 td.front-post-text {
+  text-align: left;
   padding-top: 0px;
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 td.front-post-image {
-  min-width: 266px;
   vertical-align: top;
 }
 
 td.front-post-image img {
+  width: 266px;
   margin-top: 0px;
 }
 
@@ -398,7 +396,7 @@ div.ag-caption-new {
 
 @media (min-width: 768px) {
   article {
-    margin-right: 60px;
+    margin-right: 20px;
   }
 }
 
@@ -522,6 +520,11 @@ a {
   text-decoration: none;
 }
 
+.ag-front-postlist a {
+  color: #000;
+  text-decoration: none;
+}
+
 .who-was-header a,
 .who-was-summary a,
 .who-was-taglist a,
@@ -533,35 +536,75 @@ a {
   text-decoration: none;
 }
 
+#masthead,
+#content {
+  padding-left: 0px;
+}
+
 .main-navigation {
-	clear: both;
-	display: block;
-	font-family: "Zilla Slab", serif;
-	font-size: 1.0em;
-	font-weight: 300;
-	width: 100%;
-	text-align: right;
+  clear: both;
+  display: block;
+  font-family: "Gentium Basic", serif;
+  font-size: 1.0em;
+  width: 100%;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .main-navigation li a {
+    margin: -2px 3.7rem 0 0;
+  }
+}
+
+@media (min-width: 864px) {
+  .main-navigation li a {
+    margin: -2px 5.1rem 0 0;
+  }
+}
+
+@media (min-width: 950px) {
+  .main-navigation li a {
+    margin: -2px 6.0rem 0 0;
+  }
+}
+
+@media (min-width: 1100px) {
+  .main-navigation li a {
+    margin: -2px 7.5rem 0 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-navigation li a {
+    margin: -2px 8.2rem 0 0;
+  }
 }
 
 .main-navigation a {
-	color: #404040;
-	display: block;
-	line-height: 1.5;
-        font-size: 1.1em;
-        font-weight: 300;
-	position: relative;
-	text-decoration: none;
+  color: #404040;
+  display: block;
+  line-height: 1.5;
+  font-size: 1.1em;
+  font-weight: 300;
+  position: relative;
+  text-decoration: none;
 }
 
 .main-navigation ul {
-	list-style: none;
-	margin: 22px 4px 22px 0px;
-	padding-left: 0;
-	float: right;
+  list-style: none;
+  margin: 8px 4px 0px 0px;
+  padding-left: 0;
+  float: left;
 }
 
 .main-navigation ul li {
   margin: 0px;
+  text-align: left;
+}
+
+#page {
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .nav-previous .meta-nav,
@@ -717,19 +760,19 @@ a {
 	margin: 0px;
 }
 
-.main-navigation li a {
-  margin: -2px 0rem 0 3rem;
-}
-
 @media (max-width: 767px) {
   .main-navigation .menu-toggle {
         border-bottom: solid 0px; 
 	cursor: pointer;
 	display: block;
-	height: 60px;
-	line-height: 52px;
+	height: 30px;
+	line-height: 30px;
 	margin: 0;
 	padding: 0;
+  }
+  .main-navigation .menu-toggle:before {
+    font-size: 24px;
+    line-height: 0px;
   }
 }
 
@@ -769,12 +812,29 @@ a {
   height: 215px;
 }
 
+.wide-logo {
+  width: 100%;
+}
+
+.narrow-logo {
+  width: 100%;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
 @media (max-width: 767px) {
-  .site-branding {
-    width: 100%;
-    height: 85px;
+  .wide-logo {
+    display: none;
   }
 }
+
+@media (min-width: 768px) {
+  .narrow-logo {
+    display: none;
+  }
+}
+
 
 .archive article {
 }
@@ -787,7 +847,7 @@ a {
 	box-sizing: border-box;
 	margin-bottom: 54px;    
 	padding-left: 1.11111%;
-	/*padding-right: 9.0%;*/
+	padding-right: 0px;
 	width: 100%;
 }
 
@@ -799,7 +859,7 @@ a {
 	box-sizing: border-box;
 	float: left;
 	padding-left: 1.11111%;
-	/*padding-right: 9.0%;*/
+	padding-right: 0px; 
 	width: 66.66667%;
 }
 
@@ -825,7 +885,7 @@ a {
 	   -webkit-box-sizing: border-box;
 	   box-sizing: border-box;
 	   float: right;
-	   padding-left: 0.75758%;
+	   padding-left: 0px;
 	   padding-right: 0.75758%;
 	   width: 100%;
 	}

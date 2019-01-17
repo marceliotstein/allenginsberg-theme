@@ -823,6 +823,15 @@ a {
         width: 35%;
 }
 
+@media (max-width: 767px) {
+  .archive article:not(.apostrophe-featured) .entry-thumbnail,
+  .blog article:not(.apostrophe-featured) .entry-thumbnail,
+  .search article:not(.apostrophe-featured) .entry-thumbnail {
+	float: left;
+	padding-left: 0px;
+  }
+}
+
 .archive article:not(.apostrophe-featured) .entry-header,
 	.blog article:not(.apostrophe-featured) .entry-header,
 	.search article:not(.apostrophe-featured) .entry-header {

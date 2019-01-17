@@ -29,8 +29,36 @@
   font-family: "Josefin Sans", serif;
 }
 
-.ag-front-video-player {
+.ag-front-video-box {
   text-align: left;
+}
+
+.ag-front-video-featured {
+  padding: 10px;
+  float: left;
+}
+
+.ag-front-video-more {
+  padding: 10px;
+  float: left;
+  text-align: center;
+}
+
+@media (min-width: 950px) {
+  .ag-front-video-featured {
+    max-width: 620px; 
+  }
+  .ag-front-video-more {
+    max-width: 320px; 
+  }
+  .ag-front-video-more-small {
+    padding-top: 12px;
+    max-width: 240px;
+  }
+}
+
+.ag-front-video-clear {
+  clear: both;
 }
 
 iframe {
@@ -100,7 +128,7 @@ td.who-was-img-td {
   padding-top: 12px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
  .who-was-header {
    font-size: 1.3em;
   }
@@ -166,7 +194,7 @@ td.front-post-image img {
   padding-bottom: 12px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 950px) {
   .who-was-left {
      float: left;
      width: 46%;
@@ -179,7 +207,7 @@ td.front-post-image img {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 949px) {
   td.who-was-img-td {
     width: 166px;
   }
@@ -253,7 +281,7 @@ td.front-post-image img {
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .front-post-title {
     font-size: 2.3rem;
     line-height: 1em;

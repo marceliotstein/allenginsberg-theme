@@ -52,12 +52,14 @@ get_header(); ?>
           <a href="/more-recent-articles">More Recent Articles ...</a>
         </div>
       </div>
-      <div class="ag-front-featured-video">
+      <div class="ag-front-video-box">
         <div class="ag-front-header">Featured Videos</div>
         <div class="ag-front-video-player">
           <?php
             echo do_shortcode("[insert page='video-of-the-week' display='content']");
           ?>
+        </div>
+        <div class="ag-front-video-clear">
         </div>
       </div>
       <div class="ag-front-who-was">

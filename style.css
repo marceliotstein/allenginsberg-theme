@@ -361,7 +361,6 @@ div.ag-caption-new {
   display: inline-block;
   font-family: "Gentium Basic", serif;
   font-size: 1.8rem;
-  font-weight: 600;
   letter-spacing: 1px;
   line-height: 1.25;
   margin: 0 0 1rem 0;
@@ -377,7 +376,7 @@ div.ag-caption-new {
 	color: #666666;
 	font-family: "Josefin Sans", serif;
 	font-size: 1.6rem;
-	font-weight: 600;
+	font-weight: 700;
 	letter-spacing: 1px;
 	line-height: 1;
 	margin: 0 0 1rem 0;
@@ -418,7 +417,6 @@ div.ag-caption-new {
 	font-family: "Ovo", serif;
 	font-size: 16px;
 	font-size: 1.7rem;
-	font-weight: 300;
 	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -512,7 +510,6 @@ input[type="submit"],
 	font-family: "Ovo", serif;
 	font-size: 18px;
 	font-size: 1.8rem;
-	font-weight: 300;
 	line-height: 1;
 	margin: 5px 0;
 	padding: 12px 24px;
@@ -533,7 +530,6 @@ label {
 	font-family: "Ovo", serif;
 	font-size: 14px;
 	font-size: 1.4rem;
-	font-weight: 600;
 	letter-spacing: 1px;
 	margin: 0;
 	text-transform: uppercase;
@@ -619,7 +615,6 @@ a {
   display: block;
   line-height: 1.5;
   font-size: 1.1em;
-  font-weight: 300;
   position: relative;
   text-decoration: none;
 }
@@ -647,7 +642,6 @@ a {
 	display: block;
 	font-family: "Ovo", serif;
 	font-size: 18px;
-	font-weight: 100;
 	overflow: hidden;
 	position: relative;
 }
@@ -680,16 +674,16 @@ a {
 }
 
 .entry-title {
-	margin-top: 0;
-	position: relative;
-	font-family: "Ovo", serif;
-        text-align: left;
+  margin-top: 12px;
+  position: relative;
+  font-family: "Ovo", serif;
+  text-align: left;
 }
 
 .page-content,
 .entry-content,
 .entry-summary {
-  margin: 1.5em 0 0;
+  margin: 0px 0px 0px 0px;
   font-size: 1.7rem;
 }
 
@@ -698,7 +692,6 @@ a {
 	font-family: "Ovo", serif;
 	font-size: 14px;
 	font-size: 1.4rem;
-	font-weight: 600;
 	margin: 0 0 1.5em;
 }
 

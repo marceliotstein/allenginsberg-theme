@@ -580,33 +580,37 @@ a {
   text-align: left;
 }
 
+.main-navigation li a {
+  margin: -2px 2.8rem 0 0;
+}
+
 @media (min-width: 768px) {
   .main-navigation li a {
-    margin: -2px 3.7rem 0 0;
+    margin: -2px 2.8rem 0 0;
   }
 }
 
 @media (min-width: 864px) {
   .main-navigation li a {
-    margin: -2px 5.1rem 0 0;
+    margin: -2px 4.2rem 0 0;
   }
 }
 
 @media (min-width: 950px) {
   .main-navigation li a {
-    margin: -2px 6.0rem 0 0;
+    margin: -2px 5.5rem 0 0;
   }
 }
 
 @media (min-width: 1100px) {
   .main-navigation li a {
-    margin: -2px 7.5rem 0 0;
+    margin: -2px 7.0rem 0 0;
   }
 }
 
 @media (min-width: 1200px) {
   .main-navigation li a {
-    margin: -2px 8.2rem 0 0;
+    margin: -2px 7.7rem 0 0;
   }
 }
 
